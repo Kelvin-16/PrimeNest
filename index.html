@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="PrimeNest Real Estate - exceptional homes, thoughtfully found."
+    />
+    <title>PrimeNest | Find Your Place</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="loader"><span></span></div>
+    <header class="site-header">
+      <a class="brand" href="index.html"
+        ><i class="fa-solid fa-house-chimney"></i
+        ><span>Prime<span>Nest</span></span></a
+      ><button class="nav-toggle" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav>
+        <a class="active" href="index.html">Home</a
+        ><a href="properties.html">Properties</a><a href="agents.html">Agents</a
+        ><a href="about.html">About</a><a href="contact.html">Contact</a
+        ><a class="nav-cta" href="contact.html"
+          >Talk to an expert
+          <i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">The art of living well</p>
+          <h1>Find a place that feels <em>entirely yours.</em></h1>
+          <p class="lede">
+            Thoughtfully curated homes and considered guidance for every chapter
+            of your story.
+          </p>
+          <div class="actions">
+            <a class="btn gold" href="properties.html"
+              >Explore properties <i class="fa-solid fa-arrow-right"></i></a
+            ><a class="btn text" href="contact.html">Speak to an advisor</a>
+          </div>
+        </div>
+        <div class="hero-credit">
+          <span>01</span>
+          <p>Contemporary living<br />in every detail</p>
+        </div>
+      </section>
+      <section class="finder container reveal">
+        <div>
+          <p class="eyebrow">Begin your search</p>
+          <h2>Where would you like to live?</h2>
+        </div>
+        <form id="quickSearch">
+          <label
+            >Location<input
+              name="location"
+              placeholder="City or neighbourhood" /></label
+          ><label
+            >Property type<select name="type">
+              <option value="">Any property</option>
+              <option>Apartment</option>
+              <option>Villa</option>
+              <option>House</option>
+            </select></label
+          ><button class="btn navy">
+            Search homes <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </section>
+      <section class="section container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Selected for you</p>
+            <h2>Featured residences</h2>
+          </div>
+          <a href="properties.html" class="underlined"
+            >View all properties <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+        <div class="property-grid">
+          <article class="property-card reveal">
+            <a href="property-details.html"
+              ><img
+                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1100&q=85"
+                alt="Modern white villa"
+              /><span class="tag">For sale</span></a
+            >
+            <div class="property-info">
+              <p class="price">$1,850,000</p>
+              <h3>Azure Ridge Villa</h3>
+              <p class="location">
+                <i class="fa-solid fa-location-dot"></i> Beverly Hills,
+                California
+              </p>
+              <div class="facts">
+                <span>4 Beds</span><span>4.5 Baths</span
+                ><span>3,850 sq ft</span>
+              </div>
+            </div>
+          </article>
+          <article class="property-card reveal">
+            <a href="property-details.html"
+              ><img
+                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1100&q=85"
+                alt="Luxury interior"
+              /><span class="tag">For sale</span></a
+            >
+            <div class="property-info">
+              <p class="price">$985,000</p>
+              <h3>The Lumen Residence</h3>
+              <p class="location">
+                <i class="fa-solid fa-location-dot"></i> Manhattan, New York
+              </p>
+              <div class="facts">
+                <span>2 Beds</span><span>2 Baths</span><span>1,420 sq ft</span>
+              </div>
+            </div>
+          </article>
+          <article class="property-card reveal">
+            <a href="property-details.html"
+              ><img
+                src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1100&q=85"
+                alt="Home overlooking water"
+              /><span class="tag">For sale</span></a
+            >
+            <div class="property-info">
+              <p class="price">$2,400,000</p>
+              <h3>Solara Estate</h3>
+              <p class="location">
+                <i class="fa-solid fa-location-dot"></i> Miami Beach, Florida
+              </p>
+              <div class="facts">
+                <span>5 Beds</span><span>5 Baths</span><span>4,200 sq ft</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="container">
+          <p class="eyebrow">Explore by lifestyle</p>
+          <h2>A home for every ambition.</h2>
+          <div class="category-grid">
+            <a href="properties.html?type=Apartment"
+              >Apartments <i class="fa-solid fa-arrow-up-right"></i></a
+            ><a href="properties.html?type=House"
+              >Duplexes <i class="fa-solid fa-arrow-up-right"></i></a
+            ><a href="properties.html?type=Villa"
+              >Villas <i class="fa-solid fa-arrow-up-right"></i></a
+            ><a href="properties.html?type=Commercial"
+              >Commercial <i class="fa-solid fa-arrow-up-right"></i></a
+            ><a href="properties.html?type=Land"
+              >Land <i class="fa-solid fa-arrow-up-right"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section class="story container">
+        <img
+          class="reveal"
+          src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1100&q=85"
+          alt="Refined home interior"
+        />
+        <div class="story-copy reveal">
+          <p class="eyebrow">A considered difference</p>
+          <h2>More than an address. A point of view.</h2>
+          <p>
+            We pair local intelligence with personal attention, making every
+            move feel less overwhelming and more like coming home.
+          </p>
+          <a class="underlined" href="about.html"
+            >Discover our story <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+      </section>
+      <section class="stats">
+        <div class="container stat-grid">
+          <div>
+            <strong class="counter" data-target="1800">0</strong
+            ><span>Properties sold</span>
+          </div>
+          <div>
+            <strong class="counter" data-target="96">0</strong
+            ><span>Client satisfaction</span>
+          </div>
+          <div>
+            <strong class="counter" data-target="28">0</strong
+            ><span>Expert advisors</span>
+          </div>
+          <div>
+            <strong class="counter" data-target="14">0</strong
+            ><span>Years of insight</span>
+          </div>
+        </div>
+      </section>
+      <section class="testimonial-wrap">
+        <div class="container testimonial">
+          <p class="eyebrow">Client notes</p>
+          <i class="fa-solid fa-quote-left quote"></i>
+          <blockquote class="testimonial-text">
+            “PrimeNest understood the feeling we were after before we could put
+            it into words. Finding our home felt genuinely personal.”
+          </blockquote>
+          <div class="testimonial-meta">
+            <strong>Amelia Warren</strong><span>Homeowner, New York</span>
+          </div>
+          <div class="slider-controls">
+            <button data-slider="prev" aria-label="Previous">←</button
+            ><button data-slider="next" aria-label="Next">→</button>
+          </div>
+        </div>
+      </section>
+      <section class="newsletter container">
+        <div>
+          <p class="eyebrow">The Prime edit</p>
+          <h2>Market intelligence, delivered elegantly.</h2>
+        </div>
+        <form class="newsletter-form">
+          <input
+            type="email"
+            placeholder="Your email address"
+            aria-label="Email address"
+            required
+          /><button class="btn gold">Subscribe</button>
+          <p class="form-message"></p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="index.html"
+            ><i class="fa-solid fa-house-chimney"></i
+            ><span>Prime<span>Nest</span></span></a
+          >
+          <p>Helping people find the places that make life feel fuller.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="properties.html">Properties</a
+          ><a href="agents.html">Our agents</a
+          ><a href="about.html">Our story</a>
+        </div>
+        <div>
+          <h4>Visit us</h4>
+          <p>17 Worth Avenue<br />New York, NY 10013</p>
+          <a href="tel:+12125550188">+1 212 555 0188</a>
+        </div>
+        <div>
+          <h4>Follow along</h4>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a
+            ><a href="#"><i class="fa-brands fa-linkedin-in"></i></a
+            ><a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">
+        © 2026 PrimeNest Real Estate. All rights reserved.
+      </div>
+    </footer>
+    <button class="to-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Properties | PrimeNest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header inner">
+      <a class="brand" href="index.html"
+        ><i class="fa-solid fa-house-chimney"></i
+        ><span>Prime<span>Nest</span></span></a
+      ><button class="nav-toggle"><i class="fa-solid fa-bars"></i></button>
+      <nav>
+        <a href="index.html">Home</a
+        ><a class="active" href="properties.html">Properties</a
+        ><a href="agents.html">Agents</a><a href="about.html">About</a
+        ><a href="contact.html">Contact</a
+        ><a class="nav-cta" href="contact.html">Talk to an expert</a>
+      </nav>
+    </header>
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Our collection</p>
+        <h1>Exceptional spaces,<br /><em>waiting for you.</em></h1>
+        <p>Explore homes that meet your measure of extraordinary.</p>
+      </section>
+      <section class="container listing-area">
+        <form id="propertyFilters" class="filters">
+          <input
+            id="propertySearch"
+            placeholder="Search by name or city"
+          /><select id="typeFilter">
+            <option value="">All types</option>
+            <option>House</option>
+            <option>Apartment</option>
+            <option>Villa</option>
+            <option>Commercial</option>
+            <option>Land</option></select
+          ><select id="priceFilter">
+            <option value="">Any price</option>
+            <option value="1000000">Up to $1m</option>
+            <option value="2000000">Up to $2m</option>
+            <option value="9999999">$2m+</option></select
+          ><select id="sortProperties">
+            <option value="popular">Most popular</option>
+            <option value="low">Lowest price</option>
+            <option value="high">Highest price</option>
+            <option value="new">Newest</option>
+          </select>
+        </form>
+        <div class="results-row">
+          <p><strong id="resultsCount">6</strong> homes available</p>
+          <span>Curated listings</span>
+        </div>
+        <div class="property-grid all-properties">
+          <article
+            class="property-card listing"
+            data-type="Villa"
+            data-price="1850000"
+            data-name="Azure Ridge Villa Beverly Hills"
+          >
+            <a href="property-details.html"
+              ><img
+                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1100&q=85"
+                alt="Azure Ridge Villa"
+              /><span class="tag">For sale</span></a
+            >
+            <div class="property-info">
+              <p class="price">$1,850,000</p>
+              <h3>Azure Ridge Villa</h3>
+              <p class="location">
+                <i class="fa-solid fa-location-dot"></i> Beverly Hills,
+                California
+              </p>
+              <div class="facts">
+                <span>4 Beds</span><span>4.5 Baths</span
+                ><span>3,850 sq ft</span>
+              </div>
+              <p class="card-desc">
+                Light-filled contemporary living with a private garden oasis.
+              </p>
+              <a href="property-details.html" class="underlined"
+                >View details <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+          <article
+            class="property-card listing"
+            data-type="Apartment"
+            data-price="985000"
+            data-name="Lumen Residence Manhattan"
+          >
+            <a href="property-details.html"
+              ><img
+                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1100&q=85"
+                alt="Lumen Residence"
+              /><span class="tag">For sale</span></a
+            >
+            <div class="property-info">
+              <p class="price">$985,000</p>
+              <h3>The Lumen Residence</h3>
+              <p class="location">
+                <i class="fa-solid fa-location-dot"></i> Manhattan, New York
+              </p>
+              <div class="facts">
+                <span>2 Beds</span><span>2 Baths</span><span>1,420 sq ft</span>
+              </div>
+              <p class="card-desc">A refined sanctuary above the city.</p>
+              <a href="property-details.html" class="underlined"
+                >View details <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+          <article
+            class="property-card listing"
+            data-type="Villa"
+            data-price="2400000"
+            data-name="Solara Estate Miami Beach"
+          >
+            <a href="property-details.html"
+              ><img
+                src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1100&q=85"
+                alt="Solara Estate"
+              /><span class="tag">For sale</span></a
+            >
+            <div class="property-info">
+              <p class="price">$2,400,000</p>
+              <h3>Solara Estate</h3>
+              <p class="location">
+                <i class="fa-solid fa-location-dot"></i> Miami Beach, Florida
+              </p>
+              <div class="facts">
+                <span>5 Beds</span><span>5 Baths</span><span>4,200 sq ft</span>
+              </div>
+              <p class="card-desc">
+                Coastal elegance with generous entertaining spaces.
+              </p>
+              <a href="property-details.html" class="underlined"
+                >View details <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+          <article
+            class="property-card listing"
+            data-type="House"
+            data-price="1120000"
+            data-name="Cedar House Austin"
+          >
+            <a href="property-details.html"
+              ><img
+                src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1100&q=85"
+                alt="Cedar House"
+              /><span class="tag">For sale</span></a
+            >
+            <div class="property-info">
+              <p class="price">$1,120,000</p>
+              <h3>Cedar House</h3>
+              <p class="location">
+                <i class="fa-solid fa-location-dot"></i> Austin, Texas
+              </p>
+              <div class="facts">
+                <span>4 Beds</span><span>3 Baths</span><span>2,960 sq ft</span>
+              </div>
+              <p class="card-desc">
+                Warm modern architecture in a coveted enclave.
+              </p>
+              <a href="property-details.html" class="underlined"
+                >View details <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+          <article
+            class="property-card listing"
+            data-type="Commercial"
+            data-price="3200000"
+            data-name="Pearl House Boston"
+          >
+            <a href="property-details.html"
+              ><img
+                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1100&q=85"
+                alt="Pearl House"
+              /><span class="tag">Lease / sale</span></a
+            >
+            <div class="property-info">
+              <p class="price">$3,200,000</p>
+              <h3>Pearl House</h3>
+              <p class="location">
+                <i class="fa-solid fa-location-dot"></i> Boston, Massachusetts
+              </p>
+              <div class="facts">
+                <span>8 Suites</span><span>4 Floors</span
+                ><span>8,600 sq ft</span>
+              </div>
+              <p class="card-desc">
+                A landmark workspace designed for high performance.
+              </p>
+              <a href="property-details.html" class="underlined"
+                >View details <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+          <article
+            class="property-card listing"
+            data-type="Land"
+            data-price="650000"
+            data-name="Willow Acres Napa"
+          >
+            <a href="property-details.html"
+              ><img
+                src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1100&q=85"
+                alt="Willow Acres"
+              /><span class="tag">For sale</span></a
+            >
+            <div class="property-info">
+              <p class="price">$650,000</p>
+              <h3>Willow Acres</h3>
+              <p class="location">
+                <i class="fa-solid fa-location-dot"></i> Napa Valley, California
+              </p>
+              <div class="facts">
+                <span>12 Acres</span><span>Views</span><span>Utilities</span>
+              </div>
+              <p class="card-desc">
+                A rare canvas for an exceptional country retreat.
+              </p>
+              <a href="property-details.html" class="underlined"
+                >View details <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+        </div>
+        <p class="empty-results">
+          No homes matched that search. Try another filter.
+        </p>
+      </section>
+    </main>
+    <footer class="simple-footer">
+      <div class="container">
+        © 2026 PrimeNest Real Estate
+        <span><a href="contact.html">Contact us</a></span>
+      </div>
+    </footer>
+    <button class="to-top"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="js/script.js"></script>
+  </body>
+</html>

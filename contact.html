@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact | PrimeNest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header inner">
+      <a class="brand" href="index.html"
+        ><i class="fa-solid fa-house-chimney"></i
+        ><span>Prime<span>Nest</span></span></a
+      ><button class="nav-toggle"><i class="fa-solid fa-bars"></i></button>
+      <nav>
+        <a href="index.html">Home</a><a href="properties.html">Properties</a
+        ><a href="agents.html">Agents</a><a href="about.html">About</a
+        ><a class="active" href="contact.html">Contact</a
+        ><a class="nav-cta" href="contact.html">Talk to an expert</a>
+      </nav>
+    </header>
+    <main>
+      <section class="page-hero compact">
+        <p class="eyebrow">Let’s begin</p>
+        <h1>How can we<br /><em>help you move?</em></h1>
+      </section>
+      <section class="container contact-grid">
+        <div>
+          <p class="eyebrow">Get in touch</p>
+          <h2>Tell us what you're looking for.</h2>
+          <p>
+            Whether you're ready to make a move or simply want a conversation,
+            our team is here.
+          </p>
+          <div class="contact-list">
+            <p>
+              <i class="fa-solid fa-location-dot"></i> 17 Worth Avenue, New
+              York, NY 10013
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +1 212 555 0188</p>
+            <p><i class="fa-solid fa-envelope"></i> hello@primenest.com</p>
+            <p><i class="fa-solid fa-clock"></i> Mon–Fri, 9:00am–6:00pm</p>
+          </div>
+        </div>
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="two-col">
+            <label>Full name<input name="name" required /></label
+            ><label
+              >Email address<input type="email" name="email" required
+            /></label>
+          </div>
+          <div class="two-col">
+            <label>Phone number<input name="phone" required /></label
+            ><label
+              >Subject<select name="subject" required>
+                <option value="">Choose one</option>
+                <option>Buying a property</option>
+                <option>Selling a property</option>
+                <option>General enquiry</option>
+              </select></label
+            >
+          </div>
+          <label
+            >Message<textarea
+              name="message"
+              rows="5"
+              required
+              placeholder="Tell us a little about your plans..."
+            ></textarea></label
+          ><button class="btn navy">
+            Send enquiry <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <p class="form-message"></p>
+        </form>
+      </section>
+      <section class="map wide-map">
+        <iframe
+          title="PrimeNest office map"
+          src="https://www.google.com/maps?q=New+York,+NY&output=embed"
+          loading="lazy"
+        ></iframe>
+      </section>
+      <section class="container section faq">
+        <p class="eyebrow">Questions, answered</p>
+        <h2>Frequently asked questions</h2>
+        <details>
+          <summary>
+            How do I arrange a viewing?<i class="fa-solid fa-plus"></i>
+          </summary>
+          <p>
+            Contact us through the form or call our office and an advisor will
+            arrange a viewing around your schedule.
+          </p>
+        </details>
+        <details>
+          <summary>
+            Do you help first-time buyers?<i class="fa-solid fa-plus"></i>
+          </summary>
+          <p>
+            Absolutely. We guide first-time buyers through every stage, from
+            search through negotiation and completion.
+          </p>
+        </details>
+        <details>
+          <summary>
+            What areas do you cover?<i class="fa-solid fa-plus"></i>
+          </summary>
+          <p>
+            Our advisors serve New York, California, Florida and selected
+            national markets.
+          </p>
+        </details>
+      </section>
+    </main>
+    <footer class="simple-footer">
+      <div class="container">© 2026 PrimeNest Real Estate</div>
+    </footer>
+    <button class="to-top"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="js/script.js"></script>
+  </body>
+</html>
