@@ -1,6 +1,6 @@
 # PrimeNest Real Estate
 
-A responsive multi-page real estate website built with HTML5, CSS3 and vanilla JavaScript.
+PrimeNest Real Estate is a modern, responsive real estate company website designed to help users easily search, explore, and inquire about residential and commercial properties. The platform showcases featured properties, detailed property information, experienced real estate agents, and company services through an elegant and user-friendly interface. Visitors can search and filter properties based on type, location, and price, view high-quality property images, and contact agents directly through enquiry forms. The website also includes company information, testimonials, Google Maps integration, and interactive JavaScript features such as property filtering, image galleries, and form validation. Built using HTML5, CSS3, and JavaScript, the project demonstrates responsive web design, clean code organization, modern UI/UX principles, and practical front-end development skills.
 
 ## Pages
 
