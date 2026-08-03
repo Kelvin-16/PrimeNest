@@ -32,18 +32,18 @@
     </header>
     <main class="details container">
       <p class="crumb">
-        <a href="properties.html">Properties</a> / Azure Ridge Villa
+        <a href="properties.html">Properties</a> / <span id="detailCrumb">Azure Ridge Villa</span>
       </p>
       <div class="detail-title">
         <div>
-          <p class="eyebrow">For sale · Beverly Hills</p>
-          <h1>Azure Ridge Villa</h1>
-          <p class="location">
+          <p class="eyebrow" id="detailStatus">For sale · Beverly Hills</p>
+          <h1 id="detailName">Azure Ridge Villa</h1>
+          <p class="location" id="detailAddress">
             <i class="fa-solid fa-location-dot"></i> 1450 Sunset Ridge, Beverly
             Hills, CA
           </p>
         </div>
-        <p class="big-price">$1,850,000</p>
+        <p class="big-price" id="detailPrice">$1,850,000</p>
       </div>
       <div class="gallery">
         <img
@@ -73,18 +73,18 @@
       <div class="detail-layout">
         <article>
           <div class="detail-facts">
-            <span><b>4</b> Bedrooms</span><span><b>4.5</b> Bathrooms</span
-            ><span><b>3</b> Parking</span><span><b>3,850</b> sq ft</span>
+            <span><b id="detailBeds">4</b> Bedrooms</span><span><b id="detailBaths">4.5</b> Bathrooms</span
+            ><span><b id="detailParking">3</b> Parking</span><span><b id="detailArea">3,850</b> sq ft</span>
           </div>
           <h2>Designed for effortless living.</h2>
-          <p>
+          <p id="detailDescription">
             Set above the city in one of Beverly Hills' most private enclaves,
             Azure Ridge Villa brings clean architectural lines together with
             warm, tactile materials. Expansive glazing frames garden views while
             connecting every living space to the outdoors.
           </p>
           <h3>Property features</h3>
-          <div class="feature-list">
+          <div class="feature-list" id="detailFeatures">
             <span><i class="fa-solid fa-check"></i> Chef's kitchen</span
             ><span><i class="fa-solid fa-check"></i> Heated pool & spa</span
             ><span><i class="fa-solid fa-check"></i> Smart home system</span
@@ -96,23 +96,24 @@
           <table>
             <tr>
               <td>Property type</td>
-              <td>Contemporary Villa</td>
+              <td id="specType">Contemporary Villa</td>
             </tr>
             <tr>
               <td>Year built</td>
-              <td>2023</td>
+              <td id="specYear">2023</td>
             </tr>
             <tr>
               <td>Lot size</td>
-              <td>0.42 acres</td>
+              <td id="specLot">0.42 acres</td>
             </tr>
             <tr>
               <td>Nearby</td>
-              <td>Top schools, Cedars-Sinai, Rodeo Drive</td>
+              <td id="specNearby">Top schools, Cedars-Sinai, Rodeo Drive</td>
             </tr>
           </table>
           <div class="map">
             <iframe
+              id="detailMap"
               title="Property map"
               src="https://www.google.com/maps?q=Beverly+Hills,+CA&output=embed"
               loading="lazy"

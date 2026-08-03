@@ -469,6 +469,58 @@ textarea {
   margin: 8px 0 0;
   color: var(--blue);
 }
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 14, 28, 0.65);
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  z-index: 1000;
+}
+.popup-overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+.popup-dialog {
+  position: relative;
+  width: min(460px, 100%);
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 28px 24px;
+  box-shadow: 0 20px 45px rgba(7, 14, 28, 0.25);
+  text-align: center;
+}
+.popup-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: 0;
+  background: transparent;
+  font-size: 1.4rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+.popup-icon {
+  font-size: 2.2rem;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+.popup-dialog h3 {
+  margin: 0 0 8px;
+  font: 600 1.4rem var(--serif);
+  color: var(--navy);
+}
+.popup-dialog p {
+  margin: 0 0 18px;
+  color: var(--muted);
+}
+.popup-ok {
+  margin: 0 auto;
+}
 footer {
   background: var(--navy);
   color: #dce1ed;
