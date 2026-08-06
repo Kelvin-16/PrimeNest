@@ -14,3 +14,6 @@ PrimeNest Real Estate is a modern, responsive real estate company website design
 Open `index.html` in a browser, or serve the folder with any static-file server. The site is deployment-ready for GitHub Pages, Netlify, or Vercel.
 
 Images, fonts, icons, and map embeds are loaded from public CDNs, so an internet connection is needed to view them.
+
+* Author Chika Chukwuelokalum 
+
